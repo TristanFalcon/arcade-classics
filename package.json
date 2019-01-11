@@ -1,0 +1,23 @@
+{
+  "name": "arcade-classics",
+  "version": "1.0.0",
+  "description": "web application with classic arcade games ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TristanFalcon/arcade-classics.git"
+  },
+  "author": "Tristan Falcon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TristanFalcon/arcade-classics/issues"
+  },
+  "homepage": "https://github.com/TristanFalcon/arcade-classics#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
