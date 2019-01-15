@@ -1,0 +1,31 @@
+/**
+* mixins.scss file, used to initialize all style mixins 
+* @author Tristan Falcon
+*/
+
+/******************* flex styles *******************/
+
+@mixin flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/******************* text styles *******************/
+@mixin text-outline {
+    color: map-get( $colors, black );
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}

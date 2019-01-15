@@ -1,0 +1,11 @@
+/**
+* This is the global.scss file, this file is used to 
+* set all high level styles 
+*
+* @author Tristan Falcon
+**/
+
+body {
+    background-color: map-get( $colors, black );
+    color: map-get( $colors, white );
+}

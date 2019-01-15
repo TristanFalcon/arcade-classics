@@ -1,0 +1,29 @@
+/**
+* mainContent.scss file, used to style main components of site 
+* @author Tristan Falcon
+*/
+
+.content-wrapper {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    @include flex-center;
+
+    .title {
+        color: map-get( $colors, black );
+        @include text-outline;
+    }
+
+    .games-wrapper {
+        width: 75vw;
+        margin-top: 4rem;
+        @include flex-row;
+
+        .game {
+            width: 15vw;
+            height: 30vh;
+            border: 1px solid white;
+        }
+    }
+}
+

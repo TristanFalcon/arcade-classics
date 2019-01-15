@@ -1,16 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> Arcade Classics </title>
 
-    <link rel="stylesheet" href="styles/main.min.css">
-</head>
-<body>
-    Arcade Classics
-    
-    <script src="scripts/app.min.js"></script>
-</body>
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title> Arcade Classics </title>
+
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles/main.min.css">
+    </head>
+
+    <body>  
+        <audio autoplay="true" src="audio/title-music.mp3" loop></audio> 
+        <div class="content-wrapper"> 
+            <h1 class="title"> ARCADE </h1> 
+            <h1 class="title"> CLASSICS </h1>
+            <div class="games-wrapper">
+                <div class="game">
+                    <a href="snake.html"> SNAKE </a>
+                </div>
+                <div class="game"> PONG </div>
+                <div class="game"> TETRIS </div>
+                <div class="game"> SPACE INVADERS </div>
+            </div>
+        </div>
+
+        <script src="scripts/app.min.js"></script>
+    </body>
 </html>

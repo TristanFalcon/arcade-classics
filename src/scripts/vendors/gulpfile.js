@@ -147,4 +147,4 @@ gulp.task("js", js);
 // watch task, initializes browser sync and begins watching files
 gulp.task( 'watch', gulp.parallel(browser_sync, watch_files));
 // default task, updates css, js, and html in browser sync
-gulp.task( 'default', gulp.parallel(css, js));
+gulp.task( 'default', gulp.parallel(css, js, reload));
