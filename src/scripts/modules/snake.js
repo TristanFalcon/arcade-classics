@@ -1,3 +1,4 @@
+
 class Snake {
     constructor() {
         console.info('initialized');
