@@ -1,0 +1,37 @@
+/**
+* This is the typography.scss file, this file is used to 
+* set all font and type styles.
+*
+* @author Tristan Falcon
+**/
+html {
+    font-size: 16px;
+    font-family: map-get( $fonts, press-start );
+}
+
+h1 {
+    font-size: 6rem;
+    line-height: 7rem;
+}
+
+h2 {
+    font-size: 5rem;
+    line-height: 6rem;
+}
+
+h3 {
+    font-size: 4rem;
+    line-height: 5rem;
+}
+
+h4 {
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+h5 {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+
